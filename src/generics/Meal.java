@@ -10,8 +10,8 @@ import generics.shop.Product;
  */
 public class Meal<T extends Product, V extends  Product> {
 
-    T t ;
-    V v;
+   private T t ;
+   private V v;
 
     public T getT() {
         return t;
